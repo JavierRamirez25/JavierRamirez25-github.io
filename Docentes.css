@@ -1,0 +1,176 @@
+body{
+    background-image: url(blanco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+.Docentes{
+    text-decoration: none;
+}
+
+
+
+
+
+.card{
+    width: 600px;
+    height: 300px;
+   border: Black solid 10px;
+    padding-top: 20px;
+    padding-left: 70px;
+    background-color:greenyellow;
+    transition: all 400ms ease;
+    margin: 30px;
+    float: left;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    background-color:dodgerblue;
+    padding-top: 5px;
+    border: black solid 2px;
+}  
+
+
+.card:hover{
+    background-color: lightsteelblue;
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+
+}
+
+
+
+
+
+
+button {
+ font-size: 17px;
+ padding: 0.5em 2em;
+ border: transparent;
+ box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ background: dodgerblue;
+ color: white;
+ border-radius: 4px;
+}
+
+button:hover {
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+button:active {
+ transform: translate(0em, 0.2em);
+}
+
+
+
+
+
+
+
+button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 30px Black;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color:#666699;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+
+
+.redes3 {
+  font-family: Arial;
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #428664,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: Black;
+}
+
+.redessoci {
+  width: 29%;
+  margin-top: -65px;
+}
+
+
+.copy {
+  width: 27%;
+  font-family:Arial;
+  color: Black;
+}
+
+.face1 {
+  width: 46px;
+}
+
+.face1:hover {
+  filter: drop-shadow(0px 10px 10px black);
+  transform: translateY(-1%);
+}
+
+.face {
+  width: 50px;
+}
+
+.face:hover {
+  filter: drop-shadow(8px 10px 10px black);
+  transform: translateY(-1%);
+}
+

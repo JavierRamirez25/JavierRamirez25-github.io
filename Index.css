@@ -1,0 +1,116 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+.redes3 {
+  font-family: Arial;
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #428664,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: Black;
+}
+
+
+.redessoci {
+  width: 29%;
+  margin-top: -65px;
+}
+
+
+.copy {
+  width: 27%;
+  font-family:Arial;
+  color: Black;
+}
+
+.face1 {
+  width: 46px;
+}
+
+.face1:hover {
+  filter: drop-shadow(0px 10px 10px black);
+  transform: translateY(-1%);
+}
+
+.face {
+  width: 50px;
+}
+
+.face:hover {
+  filter: drop-shadow(8px 10px 10px black);
+  transform: translateY(-1%);
+}
+
+
+
+.contador{
+    float:left;
+    position: fixed;
+}
+
+
+.style {
+  display: flex;
+  font-family: Arial;
+  width: 70%;
+}
+
+.mision {
+  background-color: azure;
+  width: 50%;
+  margin: 15px;
+  box-shadow: 0px 5.5px 10px black;
+}
+
+.vision {
+  background-color: azure;
+  width: 50%;
+  margin: 15px;
+  box-shadow: 0px 5.5px 10px black;
+}
+
+card:hover{
+    background-color: lightsteelblue;
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+
+}

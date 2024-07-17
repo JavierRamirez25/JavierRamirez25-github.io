@@ -1,0 +1,101 @@
+body{
+    background-image: url(blanco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+
+
+.card{
+    width: 500px;
+    height: 450px;
+   border: Black solid 5px;
+    padding-top: 20px;
+    padding-left: 5px;
+    background-color:greenyellow;
+    transition: all 400ms ease;
+    margin: 30px;
+    float: left;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    background-color:dodgerblue;
+    padding-top: 5px;
+    border: black solid 2px;
+}  
+
+
+
+.buttom{
+    background-color:darkseagreen;
+    border: green solid 5px;
+    padding-left: 10px;
+}
+
+.card:hover{
+    background-color: limegreen;
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+
+}    
+
+
+
+
+button {
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 35px 0;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+
+.Docentes{
+    text-decoration: none;
+}
+
+
